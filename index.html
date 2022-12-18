@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+
+		<!-- p5 core library -->
+		<script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+		<!-- A-Frame core library -->
+		<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+		<!-- AFrameP5 library -->
+		<script src="https://craignyu.github.io/aframep5/libraries/aframep5-v2.1.js"></script>
+		<!-- Your p5 Sketch -->
+		<script src="sketch.js"></script>
+		<!-- custom styles -->
+		<style>
+			body {
+				padding: 0;
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+	    <a-scene id="VRScene">
+
+				<a-assets id="VRAssets">
+					<img src="images/iron_block.png" id="iron">
+					<img src="images/gold_block.png" id="gold">
+					<img src="images/stonebrick_mossy.png" id="stone">
+					 
+
+					<!-- these two files point to an OBJ model -->
+					<a-asset id="robot_obj" src="models/robot/model.obj"></a-asset>
+					<a-asset id="robot_mtl" src="models/robot/materials.mtl"></a-asset>
+
+					<a-asset id="dog" src="models/shiba/scene.gltf"></a-asset>
+					<a-asset id="dino" src="models/dino/mymodel.glb"></a-asset>
+					<a-asset id=0 src="models/dino/0.glb"></a-asset>
+				     <a-asset id=1 src="models/dino/1.glb"></a-asset>
+				     <a-asset id=2 src="models/dino/2.glb"></a-asset>
+				     <a-asset id=3 src="models/dino/3.glb"></a-asset>
+				     <a-asset id=4 src="models/dino/4.glb"></a-asset>
+				     <a-asset id=5 src="models/dino/5.glb"></a-asset>
+				     <a-asset id=6 src="models/dino/6.glb"></a-asset>
+				     <a-asset id=7 src="models/dino/7.glb"></a-asset>
+				     <a-asset id=8 src="models/dino/8.glb"></a-asset>
+				     <a-asset id=9 src="models/dino/9.glb"></a-asset>
+				     <a-asset id=10 src="models/dino/10.glb"></a-asset>
+				     <a-asset id=11 src="models/dino/11.glb"></a-asset>
+				     <a-asset id=12 src="models/dino/12.glb"></a-asset>
+				     <a-asset id=13 src="models/dino/13.glb"></a-asset>
+				     <a-asset id=14 src="models/dino/14.glb"></a-asset>
+				     <a-asset id=15 src="models/dino/15.glb"></a-asset>
+				     <a-asset id=16 src="models/dino/16.glb"></a-asset>
+				     
+					<a-asset id="tree" src="models/tree/palm.glb"></a-asset>
+					<a-asset id="island" src="models/island/Islands.glb"></a-asset>
+					<a-asset id="building" src="models/island/building.glb"></a-asset>
+					<a-asset id="castle" src="models/island/castle.glb"></a-asset>
+					<a-asset id="balloon" src="models/island/balloon.glb"></a-asset>
+					 
+				</a-assets>
+		
+	    </a-scene>
+
+	</body>
+</html>
